@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background: url('your-hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero button {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#hero button:hover {
+    background: #c0392b;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+#somos-proya {
+    background: #fff;
+}
+
+#somos-proya .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img-container {
+    width: 100%;
+    height: 200px;
+    background: #ddd;
+    margin-bottom: 1rem;
+}
+
+#Nuestros-Programas .carta {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#Nuestros-Programas .carta button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#Nuestros-Programas .carta button:hover {
+    background: #2980b9;
+}
+
+#Caracteristicas {
+    background: #ecf0f1;
+}
+
+#Caracteristicas ul {
+    list-style: none;
+    padding: 0;
+}
+
+#Caracteristicas li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#aplica-ya {
+    text-align: center;
+}
+
+#aplica-ya button {
+    background: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#aplica-ya button:hover {
+    background: #27ae60;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
